@@ -1,0 +1,423 @@
+#f1a012 {
+  color: #f1a012; }
+
+#fff {
+  color: #fff; }
+
+#d5f4f6 {
+  color: #d5f4f6; }
+
+.naranja-1 {
+  background-color: #f2aa2a; }
+
+.naranja-2 {
+  background-color: #f4b342; }
+
+.naranja-3 {
+  background-color: #f5bd5a; }
+
+.footer {
+  color: white;
+  font-family: "Chewy";
+  text-align: center;
+  margin-bottom: 2px;
+  background-color: #f1a012;
+  position: absolute;
+  width: 100%;
+  height: 12%;
+  margin-top: 20px; }
+  .footer img {
+    margin-left: 15px;
+    box-sizing: border-box;
+    width: 25px;
+    height: 25px; }
+
+.tituloseccion {
+  color: #f1a012;
+  font-family: "Chewy";
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 1400px;
+  background-color: #fff;
+  animation-duration: 1s;
+  animation-name: texto;
+  animation-iteration-count: unset;
+  animation-direction: alternate; }
+
+@keyframes texto {
+  from {
+    margin-left: 100%;
+    width: 300%; }
+  to {
+    margin-left: 0%;
+    width: 100%; } }
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px; }
+  .pokemon {display: flex; flex-wrap: wrap-reverse;}
+  .pokemon button {display: block;}
+
+
+  #morty {  background-image: url("../imagenes/fondo.png"); margin-top: 0px;width: 600px; height: 450px; }
+  #coleccionverano {width: 600px; height: 450px; margin-left: 50px;margin-right: 50px;}
+  #morty p{font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: #FFBE16; font-size: 45px; text-align: center; text-transform: uppercase; margin-left: 0px;
+  margin-top: 150px; transform: rotate(2seg);}
+  #morty img {width: 400px;height: 225px;justify-content: center;}
+  .modal-carrito { margin-top: 50px; }
+  .modal-carrito h3 {font-family: "Chewy"; color: #f1a012 ;}
+
+#saludoUsuario {font-family: "Chewy"; color: #f1a012 ; justify-content: center; margin-left: 100px; }
+.productoEnCarrito {
+    border-left: 5px solid #f1a012;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    margin: 5px 0;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.productoEnCarrito:hover {
+    border-left: 5px solid #f1a012;
+}
+
+.boton-eliminar {
+    background-color: white;
+    color:#f1a012;
+    border: none;
+    font-size: 20px;
+}
+.boton-eliminar:hover {
+    cursor: pointer;
+}
+.boton-eliminar:focus {
+    outline: none;
+}
+.coleccionverano  {
+  width: 700px;
+  height: 500px;
+  padding: 35px;
+  margin-left: 700px;
+}
+.promosemanal  {
+  width: 1200px;
+  height: 600px;
+  padding: 35px;
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: repeat(1, 300px);
+  transition: width 2s, heigth 3s;
+  margin: auto; }
+  .promosemanal:hover {
+    width: 100%;
+    height: 450px; }
+
+.ancho {
+  width: 100%;
+  height: 100px;
+  margin: auto;
+  background-color: #f1a012;
+  display: flex;
+  flex-direction: center; }
+  .ancho img {
+    display: noun; }
+
+.logo {
+  float: left;
+  width: 30%;
+  height: 200px;
+  text-align: center;
+  margin-top: 10px; }
+
+ul {
+  list-style: none;
+  font-size: 0;
+  padding: 0; }
+  ul li {
+    display: inline-block;
+    width: 20%;
+    position: relative;
+    margin: 0%; }
+  ul a {
+    text-decoration: none;
+    text-align: end;
+    display: block;
+    color: white;
+    background-color: #f1a012;
+    font-family: "Chewy";
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    text-align: center; }
+
+li a:hover {
+  color: #d5f4f6; }
+
+ul ul {
+  width: 100%;
+  position: absolute;
+  display: none; }
+
+ul ul li {
+  width: 125%; }
+
+ul ul li a {
+  font-size: 18px; }
+
+ul li:hover ul {
+  display: block; }
+
+.nosotros-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 50%;
+  margin: auto; }
+  .nosotros-flex img {
+    width: 150px;
+    height: 200px; }
+
+.jeni {
+  font-family: "Chewy";
+  color: black;
+  text-align: center;
+  padding: 25px;
+  border-radius: 25%; }
+
+.producto {
+  width: 150px;
+  height: 200px; }
+  .prenda button {font-size: 15px;
+    display: block;
+    background-color: #f1a012;
+    font-family: "Chewy";
+    border-radius: 25%;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 2px;}
+
+  .producto button {
+    display: block;
+    background-color: #f1a012;
+    font-family: "Chewy";
+    border-radius: 25%;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 5px; }
+
+.nombreprod {
+  display: block;
+  font-family: 'Lucida Sans Unicode';
+  color: black;
+  font-size: 15px; }
+
+.galeria {
+  width: 1280px;
+  margin-left: 10%;
+  margin-bottom: 10%nom;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 200px;
+  grid-gap: 100px; }
+  .galeria img {
+    box-sizing: border-box;
+    transition: width 2s, height 2s;
+    width: 150px;
+    height: 200px;
+    object-fit: cover; }
+    #contenedor-productos {box-sizing: border-box;
+      margin-left: 10%;
+      margin-bottom: 10%nom;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);  grid-auto-rows: 200px;
+      grid-gap: 55px;}
+      .prenda { height: 200px; width: 200px;}
+      .prenda img {  box-sizing: border-box;
+        transition: width 2s, height 2s;
+        width: 100px;
+        height: 120px;
+        object-fit: cover;}
+        .prenda h3{display: block;
+          font-family: 'Lucida Sans Unicode';
+          color: black;
+          font-size: 15px;}
+          .prenda p {font-size: 10px;}
+      
+.galeria img:hover {
+  width: 225px;
+  height: 225px; }
+
+.row {
+  width: 80%; }
+
+.oferta {
+  transform: rotate(20deg);
+  width: 200px;
+  height: 100px;
+  color: white;
+  background-image: linear-gradient(to left, #f1a012, yellow);
+  font-family: chewy;
+  font-size: 45px;
+  position: absolute;
+  left: 80%;
+  border-radius: 100%;
+  text-align: center;
+  padding-top: 15px; }
+
+.formulariodecontacto {
+  font-family: 'Segoe UI';
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 15px;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  bottom: white;
+  margin-top: 15px;
+  text-align: center;
+  outline: none;
+  box-sizing: border-box;
+  display: inline-block; }
+  .formulariodecontacto input {
+    border-radius: 5px;
+    border-color: #6c757d; }
+
+.video {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: static;
+  right: 200px; }
+  .video iframe {
+    width: 1000px;
+    height: 375px; }
+
+.miformulario {
+  width: 90px;
+  box-sizing: border-box; }
+
+.mapa {
+  width: 700px;
+  height: 200px;
+  justify-content: center;
+  box-sizing: border-box;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 80px; }
+  .mapa h3 {
+    color: black;
+    font-size: 25px;
+    font-family: 'Segoe UI';
+    text-align: center; }
+  .mapa iframe {
+    width: 700px; }
+
+.direccion {
+  font-size: 15px;
+  justify-content: center; }
+
+@media only screen and (min-width: 769px) {
+  .menuresponsivo {
+    display: none; } }
+
+@media only screen and (max-width: 768px) {
+  .menuresponsivo {
+    display: block;
+    float: left;
+    margin-top: 90px;
+    margin-left: 25px;
+    position: absolute; }
+    .menuresponsivo a {
+      font-size: 25px;
+      color: #f1a012 !important; }
+    .menuresponsivo button {
+      width: 75px;
+      height: 75px;
+      padding: 0px;
+      border: none; }
+    .menuresponsivo img {
+      width: 50px;
+      height: 50px; }
+  .tituloseccion {
+    width: 100%; }
+  .menu {
+    display: none; }
+  .bg-ligth {
+    display: none !important; }
+  .ancho {
+    width: 100%;
+    height: 300px; }
+  .producto {
+    width: 150px;
+    height: 350px; }
+  .galeria {
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    margin-top: 5px;
+    margin-bottom: 60px; }
+  .mapa {
+    width: 50%;
+    height: 200px; }
+  .nosotros-flex {
+    flex-direction: column; }
+  .formulariodecontacto {
+    margin-left: 50px; }
+  .promosemanal {
+    width: 85%; }
+  .oferta {
+    position: relative;
+    left: 60%; }
+  .logo {
+    width: 100%;
+    height: 300px;
+    justify-content: center; }
+    .logo img {
+      width: 300px;
+      height: 250px; }
+  .titulo {
+    display: none; }
+  ul li {
+    display: block;
+    padding: 10px; }
+    ul li a {
+      font-size: 35px;
+      margin: 0px;
+      text-align: center;
+      position: relative;
+      bottom: 5px;
+      background: none; }
+      ul li a:hover {
+        color: yellow; }
+  .video {
+    margin: 0px; }
+    .video iframe {
+      width: 70%; }
+  .mapa {
+    margin-left: 50px; }
+    .mapa iframe {
+      width: 500px; }
+  .formulariodecontacto {
+    margin-left: 130px; }
+    .formulariodecontacto h1 {
+      text-align: center; }
+  .video {
+    width: 100%;
+    height: 100%;
+    position: static;
+    justify-content: center;
+    margin-left: 20px; }
+    .video iframe {
+      width: 100%;
+      height: 100%; } }

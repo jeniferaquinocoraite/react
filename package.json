@@ -1,0 +1,27 @@
+{
+  "name": "misol",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss.main/main.scss sitio/css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Je34771798/misol.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Je34771798/misol/issues"
+  },
+  "homepage": "https://github.com/Je34771798/misol#readme",
+  "devDependencies": {
+    "node": "^17.7.2",
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15",
+    "sass": "^1.50.0"
+  }
+}
